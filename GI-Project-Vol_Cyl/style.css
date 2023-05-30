@@ -1,0 +1,99 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1031%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(50%2c 151%2c 241%2c 1)'%3e%3c/rect%3e%3cpath d='M1331.3613216365738 23.907913273110324L1190.904796782167-0.858361675270686 1166.138521833786 139.5981631791361 1306.5950466881927 164.3644381275171z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M132.86814867903684 433.5780198008322L109.95489630855934 578.2466016610659 254.62347816879313 601.1598540315434 277.5367305392706 456.4912721713097z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1268.551%2c569.093C1294.551%2c569.233%2c1319.437%2c558.305%2c1333.628%2c536.519C1349.281%2c512.489%2c1355.345%2c481.935%2c1341.785%2c456.665C1327.572%2c430.178%2c1298.606%2c414.78%2c1268.551%2c415.244C1239.262%2c415.696%2c1212.844%2c432.984%2c1199.132%2c458.868C1186.228%2c483.227%2c1189.982%2c512.501%2c1204.672%2c535.827C1218.384%2c557.6%2c1242.82%2c568.955%2c1268.551%2c569.093' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M700.8326145797897 387.53720529130044L761.7696315376714 339.9279898199114 659.887299851647 272.32707211878335z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M373.5985127060774 270.4606721290813L379.5049472283965 185.9947232582731 249.8528066610246 219.3680459101985z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M792.824%2c459.952C824.835%2c457.33%2c852.71%2c439.163%2c868.269%2c411.065C883.326%2c383.873%2c883.735%2c350.909%2c868.068%2c324.065C852.526%2c297.436%2c823.644%2c282.698%2c792.824%2c281.8C760.199%2c280.85%2c728.279%2c292.695%2c709.584%2c319.449C687.606%2c350.901%2c672.875%2c392.457%2c692.432%2c425.469C711.762%2c458.096%2c755.028%2c463.048%2c792.824%2c459.952' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M558.2972815214537 467.6694831889969L466.24914478190806 435.9747679577084 434.5544295506196 528.022904697254 526.6025662901652 559.7176199285425z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M596.847%2c390.799C617.512%2c392.219%2c638.145%2c383.106%2c648.998%2c365.463C660.352%2c347.007%2c661.662%2c322.911%2c649.74%2c304.816C638.725%2c288.098%2c616.866%2c286.131%2c596.847%2c286.31C577.255%2c286.485%2c555.196%2c288.683%2c545.566%2c305.746C536.034%2c322.636%2c545.774%2c342.45%2c555.788%2c359.059C565.362%2c374.937%2c578.35%2c389.528%2c596.847%2c390.799' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1035.8236933278406 96.42416942540774L1088.406110457865 152.81190825311174 1146.6965101344088 45.74441314422326z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1119.887%2c346.766C1170.627%2c347.844%2c1224.819%2c333.265%2c1249.674%2c289.017C1274.166%2c245.415%2c1256.593%2c192.873%2c1230.191%2c150.4C1205.533%2c110.732%2c1166.593%2c80.562%2c1119.887%2c80.224C1072.636%2c79.882%2c1030.874%2c108.134%2c1006.785%2c148.785C982.175%2c190.315%2c975.364%2c241.784%2c999.31%2c283.7C1023.425%2c325.912%2c1071.283%2c345.734%2c1119.887%2c346.766' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M103.497%2c337.237C130.911%2c338.127%2c161.82%2c339.814%2c177.669%2c317.429C195.449%2c292.316%2c194.148%2c257.798%2c178.496%2c231.306C163.099%2c205.245%2c133.75%2c190.866%2c103.497%2c191.889C74.925%2c192.855%2c50.533%2c211.025%2c36.799%2c236.098C23.622%2c260.153%2c22.127%2c289.971%2c37.227%2c312.868C51.115%2c333.927%2c78.284%2c336.418%2c103.497%2c337.237' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1109.2369207876618 7.441999888622028L1157.529311505371 111.26357621475547 1216.3631803744265 30.285702792015442z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M518.4294207247038 315.17335523508814L617.7369825624595 343.6493403630221 646.2129676903935 244.34177852526642 546.9054058526378 215.86579339733245z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M93.60963005271364 162.03568759565718L88.50665784078289 15.905682839126882-57.62334691574742 21.008655051057644-52.52037470381666 167.13865980758794z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1031'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 26px;
+    box-shadow: 35px 35px 68px 0px rgba(74, 144, 226, 0.5), inset -11px -11px 16px 0px rgba(74, 144, 226, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    padding: 25px;
+    /* margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 20em;
+  margin-right: 20em; */
+    margin: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/*  
+   @font-face {
+    font-family: myFont;
+    src: url(/Page/Fonts/Poppins-SemiBold.ttf);
+  }
+   */
+
+.newButton {
+    text-align: centre;
+    font-weight: 530;
+    color: black;
+    font-size: 20px;
+    border-radius: 1px;
+    background-color: rgb(22, 225, 240);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 26px;
+    box-shadow: 35px 35px 68px 0px rgba(74, 144, 226, 0.5), inset -11px -11px 16px 0px rgba(74, 144, 226, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+.newButton:hover {
+    background: #3c88fa;
+    background-image: linear-gradient(to bottom, #62abdb, #fcfcfc);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.1em);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mainhead {
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#rStyle {
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 50;
+    color: rgb(252, 247, 247);
+}
+
+#hStyle {
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 50;
+    color: rgb(255, 253, 253);
+}
+
+#ans {
+    text-decoration: underline;
+    font-family: poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 50;
+    color: white;
+}
+
+#answer {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    padding: 15px 32px;
+}
+
+#new {
+    text-align: center;
+}
+
+#radius {
+    border-radius: 3em;
+}
+
+#height {
+    border-radius: 3em;
+}

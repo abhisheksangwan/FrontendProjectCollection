@@ -1,0 +1,37 @@
+body{
+    background-color: #e2dada;
+}
+#shape{
+margin:200px 30px 134px 34px;
+height:200px;
+width:200px;
+background-color:red;
+border-radius:50%;
+position:relative;
+
+}
+#time,#timetaken
+{
+font-weight:bold;
+text-align: center;
+}
+#time
+{
+text-align: center;
+}
+
+#head,#subhead{
+text-align:center;
+}
+.credit{
+    text-align: center;
+    color: #0e5b67;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color:#0f2b4e;
+    font-weight: bold;
+  }

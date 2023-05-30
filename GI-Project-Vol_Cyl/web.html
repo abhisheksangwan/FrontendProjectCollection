@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Volume Of Cylinder</title>
+    <link rel="icon" href="/abhi.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/akb7pjh.css">
+
+
+</head>
+
+<body id="new">
+
+    <div id="mainhead">
+        <h2>Calculate Volume Of Cylinder</h2>
+    </div>
+
+    <div id="mainhead">Enter the dimensions of Cylinder: </div><br><br> &nbsp;
+    <label id="rStyle">Radius : </label>
+
+    <input id="radius" type="number"></input><br> &emsp13;
+    <label id="hStyle">Height : </label>
+    <input id="height" type="number"></input> <br> <br><br><br>
+
+
+    <div>
+        <button class="newButton" onclick="runClick()">
+         Calculate Volume Of the Cylinder
+        </button>
+        <br><br>
+        <div id="ans">Answer</div>
+        <div id="answer"></div>
+</body>
+<script>
+    function getVolume(radius, height) {
+        var none = "Oops! This Doesn't seem to be a Cylinder"
+        if (radius > 0 && height > 0) {
+            var volume = Math.PI * radius * radius * height;
+        } else {
+            return none;
+        }
+
+        return volume;
+    }
+
+    function runClick() {
+        let input1 = document.getElementById("radius").value;
+        let input2 = document.getElementById("height").value;
+
+        let volume = getVolume(input1, input2);
+        document.getElementById("answer").innerHTML = volume + `</div></div>`
+    }
+</script>
+
+</html>
