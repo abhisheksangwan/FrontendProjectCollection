@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+    overflow: auto;
+
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    padding: 20px 40px;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(15, 61, 83, 0.832);
+}
+.signup-header h1{
+    font-size: 5vmin;
+    color: #212121;
+}
+.signup-header p{
+    font-size: 2.5vmin;
+    color: #555;
+}
+.signup-body {
+    margin: 20px;
+}
+.signup-body p{
+    margin: 10px;
+}
+.signup-body p label{
+    margin: 0 5px;
+    font-weight: bolder;
+    /* display: block; */
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+    border: 3px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.signup-body p input:hover{
+    border: 3px solid #3A9DCE;
+}
+.signup-body p input[type="submit"]{
+    background-color: rgba(58, 157, 206, 0.832);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(58, 157, 206);
+}
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+.signup-footer p a{
+    color: #3A9DCE;
+}
