@@ -23,9 +23,11 @@ body{
     top: 40%;
     padding: 20px 40px;
     transform: translateY(-50%);
-    background-color: white;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(15, 61, 83, 0.832);
+    z-index: 2;
 }
 .signup-header h1{
     font-size: 5vmin;
@@ -71,4 +73,20 @@ body{
 }
 .signup-footer p a{
     color: #3A9DCE;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+    
+}
+.c1{
+    top:100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 40px;
 }
