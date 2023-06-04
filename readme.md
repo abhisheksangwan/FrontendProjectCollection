@@ -4,6 +4,9 @@ These are all the projects that are present in this repo:
 # Analog_clock
 Built an analog clock using Html, Css, Js
 
+# Gallary-Grid
+Going to build a Portfolio Gallery using CSS Grid. 
+
 # Vol_Cyl
 Made a basic WebPage using HTML, CSS and JS which calculates volume of cylinder
 
