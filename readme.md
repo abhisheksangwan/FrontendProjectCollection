@@ -9,9 +9,10 @@ These are all the Frontend projects that are present in this repo:
 - [Gallary Grid](#Gallary-Grid)
 - [Vol Cyl](#Vol_Cyl) 
 - [MapSense Problem Statement](#MapSense-Problem-Statement)
-- [Glassmorphic Signup Page](#Glassmorphic Signup-Page)
+- [Notes-WebApp](#Notes-WebApp)
+- [Glassmorphic Signup Page](#Glassmorphic-Signup-Page)
 - [Reflex Time](#Reflex-Time)
-- [UsabilityHub Website Clone](#UsabilityHub-Website Clone)
+- [UsabilityHub Website Clone](#UsabilityHub-Website-Clone)
 
 ## Getting Started
 
@@ -64,12 +65,15 @@ Made a basic WebPage using HTML, CSS and JS which calculates volume of cylinder
 Used a custom free API for providing details of a PinPoint Location on World Map
 This problem set was solved under Winter Project for THE CIVILISED DEVELOPERS
 
-# Glassmorphic Signup-Page
+# Notes-WebApp
+Made a notes app with add and delete button
+
+# Glassmorphic-Signup-Page
 I am going to build a Signup page using Basic HTML & CSS.
 
 # Reflex-Time
 Made a basic Reflex game based on reaction time of a user 
 
-# UsabilityHub-Website Clone
+# UsabilityHub-Website-Clone
 I am going to build a website clone using HTML and CSS. We will be using CSS Flexbox to build this. This is a modern Homepage clone of a website called UsabilityHub.
 
