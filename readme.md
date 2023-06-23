@@ -13,6 +13,7 @@ These are all the Frontend projects that are present in this repo:
 - [Glassmorphic Signup Page](#Glassmorphic-Signup-Page)
 - [Reflex Time](#Reflex-Time)
 - [UsabilityHub Website Clone](#UsabilityHub-Website-Clone)
+- [Whack-a-Mole](#Whack-a-Mole)
 
 ## Getting Started
 
@@ -77,3 +78,5 @@ Made a basic Reflex game based on reaction time of a user
 # UsabilityHub-Website-Clone
 I am going to build a website clone using HTML and CSS. We will be using CSS Flexbox to build this. This is a modern Homepage clone of a website called UsabilityHub.
 
+# Whack-a-Mole
+New project which works/performs asynchronous operations.A mole will appear in any random square out of nine squares every second. A player should track & hit a mole (square) by clicking on them. And to complete the game in sixty seconds.
