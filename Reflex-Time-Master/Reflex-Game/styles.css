@@ -1,5 +1,7 @@
 body{
     background-color: #e2dada;
+    height: 100vh;
+    width: 100vh;;
 }
 #shape{
 margin:200px 30px 134px 34px;
