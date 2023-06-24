@@ -1,7 +1,8 @@
 <h1 align="center">Frontend Projects</h1>
 These are all the Frontend projects that are present in this repo:
 
-## Table of Contents
+## Live Working Links of Contents
+https://abhisheksangwan.github.io/FrontendProjectCollection/Whack-a-Mole/
 
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
