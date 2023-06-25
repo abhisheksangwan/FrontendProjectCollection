@@ -9,6 +9,7 @@ These are all the Frontend projects that are present in this repo:
 
 - [Analog Clock](https://abhisheksangwan.github.io/FrontendProjectCollection/Analog_clock/Analog_CLOCK/)
 - [Gallary Grid](https://abhisheksangwan.github.io/FrontendProjectCollection/Gallary-Grid/)
+- [GitHub Wrapper](https://abhisheksangwan.github.io/FrontendProjectCollection/Github-Profile-Wrapper/)
 - [Vol Cyl](https://abhisheksangwan.github.io/FrontendProjectCollection/GI-Project-Vol_Cyl/) 
 - [MapSense Problem Statement](https://abhisheksangwan.github.io/FrontendProjectCollection/MapSense-Problem-Statement/)
 - [Notes-WebApp](https://abhisheksangwan.github.io/FrontendProjectCollection/NotesApp/)
