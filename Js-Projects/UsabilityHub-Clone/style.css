@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap');
+/* imported poppins and roboto font(450 & 700)  */
+
+/* Universal Selector defined */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Made some variables taaki baar baar na define karna pade */
+
+:root {
+    --primary-text-color :#183b56;
+    --secondar-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 2.9rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondar-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+
+/* utility-classes */
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.hover-link{
+    color: var(--primary-text-color);
+}
+.hover-link:hover{
+    color: var(--accent-color);
+    transition: 0.2s ease-out;
+}
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 600;
+    color: white !important;
+    padding: 12px 12px;
+    box-shadow: 0 0 2px var(--secondar-text-color);
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+.secondary-button{
+    border: 0.5px solid var(--secondar-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primary-text-color)!important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color)!important;
+}
+
+/* top-banner */
+
+.top-banner{
+    background-image: url('./Assets/asset\ 32.png');
+    background-color: #E74694;
+    background-size: 300px;
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+/* nav-bar */
+
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+/* header-section */
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+.header-left{
+    max-width: 40vw;
+}
+.header-left h1{
+    margin-top: 20px;
+}
+.get-started-button{
+    margin-top: 20px;
+}
+.header-right img{
+    width: 600px;
+}
+
+/* companies-section */
+
+.companies-text{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.logos{
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-bottom: 120px;
+}
+.logo{
+    height: 46px;
+}
+
+/* features-section */
+.features-section{
+    padding: 80px var(--padding-inline-section);
+    background-image: url(./Assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
+.features-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features-text{
+    font-weight: 500;
+}
+/* feature-flex-cards */
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.features-area{
+    flex-wrap: wrap;
+}
+.features-card{
+    max-width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.feature-logo{
+    height: 40px;
+}
+
+/* big-feature-section */
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+.big-feature-container{
+    gap: 30px;
+}
+.big-feature-logo img{
+    width: 100%;
+}
+.big-feature-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* examples-section */
+
+.examples-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.tagline{
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.example-area{
+    justify-content: space-between; 
+}
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 320px;
+    background: black;
+}
+.card-text{
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+/* cta-section */
+.cta-section{
+    margin-top: 70px;
+    background-color: #183b56;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+.cta-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cta-left{
+    width: 550px;
+}
+.cta-left h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.cta-left p{
+    color: #b9cde4;
+    margin-block: 20px;
+}
+
+.cta-left a.primary-button{
+    margin-top: 50px;
+}
+.cta-left h4{
+    margin-bottom: 20px;
+}
+.cta-left a.special{
+    color: #b9cde4;
+    text-decoration: underline;
+    text-decoration-style:dotted ;
+}
+.cta-left li{
+    color: #b9cde4;
+}
+.cta-right img{
+    margin-top: 20px;
+    max-width: 550px;
+}
+
+/* testing-section */
+.testing-section{
+    padding: 30px var(--padding-inline-section) 0px;
+    text-align: center;
+    background-color: #FFFFFF;
+    
+}
+.testing-heading{
+    flex-direction: column;
+    gap: 30px;
+}
+.testing-btn{
+    margin-bottom: 90px;
+}
+
+/* footer */
+footer{
+    padding-block: 30px var(--padding-inline-section) 0;
+    color: #184e8d !important;
+}
+.footer-header{
+    color: #1a5faf !important;
+    margin-top: 30px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.link-column h4{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+/* subfooter */
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.sub-footer-container{
+    justify-content: center;
+    gap: 30px;
+}
