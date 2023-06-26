@@ -7,16 +7,16 @@ These are all the Frontend projects that are present in this repo:
 
 ## Live Working Links of Contents
 
-- [Analog Clock](https://abhisheksangwan.github.io/FrontendProjectCollection/Analog_clock/Analog_CLOCK/)
-- [Gallary Grid](https://abhisheksangwan.github.io/FrontendProjectCollection/Gallary-Grid/)
-- [GitHub Wrapper](https://abhisheksangwan.github.io/FrontendProjectCollection/Github-Profile-Wrapper/)
-- [Vol Cyl](https://abhisheksangwan.github.io/FrontendProjectCollection/GI-Project-Vol_Cyl/) 
-- [MapSense Problem Statement](https://abhisheksangwan.github.io/FrontendProjectCollection/MapSense-Problem-Statement/)
-- [Notes-WebApp](https://abhisheksangwan.github.io/FrontendProjectCollection/NotesApp/)
-- [Signup-Page](https://abhisheksangwan.github.io/FrontendProjectCollection/Glassmorphic-Signup-Page/)
-- [Reflex Time](https://abhisheksangwan.github.io/FrontendProjectCollection/Reflex-Time-Master/Reflex-Game/)
-- [UsabilityHub Website Clone](https://abhisheksangwan.github.io/FrontendProjectCollection/UsabilityHub-Clone/)
-- [Whack-a-Mole](https://abhisheksangwan.github.io/FrontendProjectCollection/Whack-a-Mole/)
+- [Analog Clock](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/Analog_clock/Analog_CLOCK/)
+- [Gallary Grid](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/Gallary-Grid/)
+- [GitHub Wrapper](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/Github-Profile-Wrapper/)
+- [Vol Cyl](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/GI-Project-Vol_Cyl/) 
+- [MapSense Problem Statement](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/MapSense-Problem-Statement/)
+- [Notes-WebApp](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/NotesApp/)
+- [Signup-Page](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/Glassmorphic-Signup-Page/)
+- [Reflex Time](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/Reflex-Time-Master/Reflex-Game/)
+- [UsabilityHub Website Clone](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/UsabilityHub-Clone/)
+- [Whack-a-Mole](https://abhisheksangwan.github.io/FrontendProjectCollection/Js-Projects/Whack-a-Mole/)
 
 ## Getting Started
 

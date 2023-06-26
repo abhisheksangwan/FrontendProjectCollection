@@ -7,7 +7,209 @@
     font-family: 'Poppins',sans-serif;
     background-color: antiquewhite;
 }
-a{
-text-decoration: none;
-color: black;
+
+/* utility Tools */
+
+h2{
+    font-weight: 600;
 }
+h4{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    max-width: 1080px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+/* nav-bar */
+
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+
+
+
+.main{
+}
+.hero-section{
+    text-align: center;
+    /* margin-top: 40px; */
+}
+span{
+    color: brown;
+}
+.projects{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.left-half{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 50%;
+}
+.right-half{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 50%;
+
+}
+footer{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Social-link-buttons */
+
+.social-links,.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: #FAEBD7;
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+  }
+  
+  .social-btn svg {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .social-btn:hover span {
+    padding: 2px;
+    width: 80px;
+  }
+  
+  #twitter svg {
+    fill: #1da1f2;
+  }
+  
+  #linkedin svg {
+    fill: #0e76a8;
+  }
+  
+  #github {
+    fill: #333;
+  }
+
+  @media screen and (455px<=width<=576px) {
+    h2{
+        font-size: 1.3rem;
+    }
+    h4{
+        font-size: 0.81rem;
+        margin-top: 4px;
+    }
+    
+    .company-logo img{
+        width: 180px;
+    }
+    .nav-links .flex{
+        gap: 5px;
+    }
+    footer{
+        position: absolute;
+        bottom: 10px;
+        left: 25%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+  }
+  @media screen and (270px<=width<=450px) {
+    h2{
+        font-size: 0.8rem;
+    }
+    h4{
+        font-size: 0.41rem;
+        margin-top: 4px;
+    }
+    a{
+        font-size: 0.6rem;
+    }
+    
+    .company-logo img{
+        width: 80px;
+    }
+    .nav-links .flex{
+        gap: 5px;
+    }
+    .social-btn {
+        height: 30px;
+        width: 30px;
+        padding-left: 3px;
+        padding-top: 2.6px;
+      }
+    .social-btn svg {
+        height: 17px;
+        width: 17px;
+      }
+    footer{
+        position: absolute;
+        bottom: 10px;
+        left: 25%;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+  }
