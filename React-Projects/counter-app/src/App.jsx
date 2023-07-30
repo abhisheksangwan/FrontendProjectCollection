@@ -1,36 +1,39 @@
-import { useState } from "react";
+import { createContext, useContext, useState } from "react";
 import "./App.css";
 import { Button, Card, Typography } from "@mui/material";
-import { PropTypes } from "prop-types";
+
+const CountContext = createContext();
 
 function App() {
   const [count, setCount] = useState(0);
+
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      <Card style={{ padding: 20, width: "500", border:"2px solid black"}}>
-        <Typography variant="h5">Welcome to the counter game</Typography>
-        <br />
-        <Buttons count={count} setCount={setCount} />
-        <CountComponent count={count} />
-      </Card>
-    </div>
+    <CountContext.Provider value={{ count: count, setCount: setCount }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Card
+          style={{ padding: 20, width: "500px", border: "2px solid black" }}
+        >
+          <Typography variant="h5">Welcome to the counter game</Typography>
+          <br />
+          <Buttons />
+          <CountComponent />
+        </Card>
+      </div>
+    </CountContext.Provider>
   );
 }
 
-function Buttons({ count, setCount }) {
+function Buttons() {
   return (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
-      <Increase count={count} setCount={setCount} />
-      <Decrease count={count} setCount={setCount} />
+      <Increase />
+      <Decrease />
     </div>
   );
 }
-Buttons.propTypes = {
-  count: PropTypes.number.isRequired,
-  setCount: PropTypes.func.isRequired,
-};
 
-function Increase({ count, setCount }) {
+function Increase() {
+  const { count, setCount } = useContext(CountContext);
   return (
     <div>
       <Button
@@ -44,12 +47,9 @@ function Increase({ count, setCount }) {
     </div>
   );
 }
-Increase.propTypes = {
-  count: PropTypes.number.isRequired,
-  setCount: PropTypes.func.isRequired,
-};
 
-function Decrease({ count, setCount }) {
+function Decrease() {
+  const { count, setCount } = useContext(CountContext);
   return (
     <div>
       <Button
@@ -63,16 +63,16 @@ function Decrease({ count, setCount }) {
     </div>
   );
 }
-Decrease.propTypes = {
-  count: PropTypes.number.isRequired,
-  setCount: PropTypes.func.isRequired,
-};
-function CountComponent({ count }) {
-  return <div>
-  <Typography variant="h5" textAlign={"center"}>{count} </Typography>
-  </div>
+
+function CountComponent() {
+  const { count } = useContext(CountContext);
+  return (
+    <div>
+      <Typography variant="h5" textAlign="center">
+        {count}
+      </Typography>
+    </div>
+  );
 }
-CountComponent.propTypes = {
-  count:PropTypes.number.isRequired,
-}
+
 export default App;
