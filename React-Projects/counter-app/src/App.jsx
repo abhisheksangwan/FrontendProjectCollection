@@ -1,14 +1,11 @@
-import { createContext, useContext, useState } from "react";
 import "./App.css";
 import { Button, Card, Typography } from "@mui/material";
+import { atom, RecoilRoot, useSetRecoilState, useRecoilValue } from "recoil";
 
-const CountContext = createContext();
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <CountContext.Provider value={{ count: count, setCount: setCount }}>
+    <RecoilRoot>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Card
           style={{ padding: 20, width: "500px", border: "2px solid black" }}
@@ -19,7 +16,7 @@ function App() {
           <CountComponent />
         </Card>
       </div>
-    </CountContext.Provider>
+    </RecoilRoot>
   );
 }
 
@@ -33,13 +30,13 @@ function Buttons() {
 }
 
 function Increase() {
-  const { count, setCount } = useContext(CountContext);
+  const setCount = useSetRecoilState(countState);
   return (
     <div>
       <Button
         variant="contained"
         onClick={() => {
-          setCount(count + 1);
+          setCount((existingCount) => existingCount + 1);
         }}
       >
         Increase Counter
@@ -49,13 +46,13 @@ function Increase() {
 }
 
 function Decrease() {
-  const { count, setCount } = useContext(CountContext);
+  const setCount = useSetRecoilState(countState);
   return (
     <div>
       <Button
         variant="contained"
         onClick={() => {
-          setCount(count - 1);
+          setCount((existingCount) => existingCount - 1);
         }}
       >
         Decrease Counter
@@ -65,14 +62,19 @@ function Decrease() {
 }
 
 function CountComponent() {
-  const { count } = useContext(CountContext);
+  const  count  = useRecoilValue(countState);
   return (
     <div>
       <Typography variant="h5" textAlign="center">
         {count}
+        {console.log(count)}
       </Typography>
     </div>
   );
 }
 
 export default App;
+const countState = atom({
+  key: "countState", // unique ID (with respect to other atoms/selectors)
+  default: 0, // default value (aka initial value)
+});
